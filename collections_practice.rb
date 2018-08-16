@@ -39,5 +39,5 @@ def add_s(array)
     if index == 2
       return element 
     else 
-      return "#{element}+s" end }
+      return "#{element}s" end }
 end
