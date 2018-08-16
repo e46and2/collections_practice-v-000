@@ -27,5 +27,5 @@ end
 end
 
 def find_a(array)
-  
+  array.collect(s)
 end
