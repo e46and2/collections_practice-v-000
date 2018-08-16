@@ -35,5 +35,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect.with_index {|element, index| index == 2 ? element : "#{element}s"}
+  array.collect.with_index {|element, index| index == 1 ? element : "#{element}s"}
 end
