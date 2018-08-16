@@ -20,9 +20,8 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each do |string| string.split('').map.to_a 
+  array.each do |string| string.split('').to_a 
   string[2] = "$"
   string
-end
 end
 end
