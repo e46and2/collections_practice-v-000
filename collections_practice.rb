@@ -42,4 +42,5 @@ def add_s(array)
       return "#{element}s"
       element
     end
+  end
 end
