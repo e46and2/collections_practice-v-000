@@ -35,10 +35,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect.with_index {|element, index| 
+  array.each do |element, index| 
     if index == 2
       return element 
     else 
-      return "#{element}s" end }
+      return "#{element}s"
       element
+    end
 end
