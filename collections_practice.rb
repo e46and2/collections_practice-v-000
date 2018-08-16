@@ -29,3 +29,7 @@ end
 def find_a(array)
   array.select { |a_words| a_words.start_with?('a')} 
 end
+
+def sum_array(array)
+  
+end
