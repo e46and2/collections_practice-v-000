@@ -28,5 +28,4 @@ end
 
 def find_a(array)
   array.select { |a_words| a_words.start_with?('a')} 
-  return a_words
 end
